@@ -5,7 +5,7 @@
 	addi $t1, $zero, 5
 	
 	div $t2, $t0, $t1
-	# div $t2, $t0, 10
+	# div $t2, $t0, 10 
 	
 	# remainder goes to high, quotient goes to low (for the 2 registers approach)
 	div $t0, $t1
